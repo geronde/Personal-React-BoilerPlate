@@ -18,7 +18,7 @@ Download the repository
  
 
 ```
-   $git clone https://github.com/geronde/Personal-react-boilerplate
+   $git clone https://github.com/geronde/Personal-React-BoilerPlate.git
 
 ```
 
