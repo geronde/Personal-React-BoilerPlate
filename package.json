@@ -1,6 +1,6 @@
 {
   "name": "reactboilerplate",
-  "version": "1.0.0",
+  "version": "1.5.3",
   "description": "reactboilerplate for development and production",
   "scripts": {
     "webpack": "webpack",
@@ -25,7 +25,6 @@
     "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^0.28.7",
     "eslint": "^4.1.1",
-    "eslint-config-airbnb": "^16.0.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-config-react-app": "^2.1.0",
     "eslint-plugin-flowtype": "^2.34.1",
