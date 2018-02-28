@@ -9,11 +9,13 @@ ReactDOM.render(
   <AppContainer>
     <App />
   </AppContainer>,
-  document.getElementById("root"),
+  document.getElementById("root")
 );
 
 // Webpack Hot Module Replacement API
 if (module.hot) {
-	 const NextApp = require("./App").default;
-  module.hot.accept("./App", () => { render(NextApp); });
+  const NextApp = require("./App").default;
+  module.hot.accept("./App", () => {
+    render(NextApp); // eslint-disable-line no-undef
+  });
 }

@@ -13,5 +13,5 @@
     "react"
   //Transpile React components to JS
   ],
-  "plugins": ["react-hot-loader/babel"]
+  "plugins": ["react-hot-loader/babel","inline-react-svg"]
 }

@@ -45,8 +45,11 @@ For Development, it uses devServer, and to run it simply execute:
 
 You can always execute the production on client side using `npm run prod:client` or simply run the server side using `npm run prod:server`.
 
-## More Boilerplate
+### Linting/Prettify
 
-You can find my other boilerplate for React using Express Server 
+To lint and prettify code, run
 
-[BoilerPlate with Express](https://github.com/geronde/React-Boilerplate-using-Express-Server)
+```
+npm run lint
+
+```
