@@ -1,5 +1,3 @@
-// const devConfig = require('./webpack.config.js')
-// const merge = require('webpack-merge');
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 const webpack = require("webpack");
 const path = require("path");
@@ -103,5 +101,4 @@ const config = {
     new webpack.IgnorePlugin(/^\.\/locale$/, [/moment$/])
   ]
 };
-
 module.exports = config;
