@@ -1,6 +1,6 @@
 {
   "name": "reactboilerplate",
-  "version": "1.5.3",
+  "version": "1.7.3",
   "description": "reactboilerplate for development and production",
   "scripts": {
     "webpack": "webpack",
