@@ -78,7 +78,7 @@ module.exports = {
 
     // index.html custom template
     new HtmlWebpackPlugin({
-      title: "Welcome",
+      title: "React Boilerplate",
       template: "./index.html",
       favicon: "favicon.ico"
     }),
