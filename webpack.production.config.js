@@ -11,7 +11,7 @@ const config = {
 
   output: {
     path: path.resolve(__dirname, "build"),
-    filename: "app.bundle.js"
+    filename: "js/app.bundle.js"
   },
 
   module: {
@@ -79,7 +79,6 @@ const config = {
       allChunks: true
     }),
     new UglifyJsPlugin({
-      warnings: false,
       cache: true,
       sourceMap: false,
       exclude: [/\.min\.js$/gi],
@@ -88,8 +87,7 @@ const config = {
         compress: {
           pure_getters: true,
           unsafe: true,
-          unsafe_comps: true,
-          screw_ie8: true
+          unsafe_comps: true
         },
         output: {
           comments: false,

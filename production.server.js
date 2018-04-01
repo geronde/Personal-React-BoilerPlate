@@ -3,17 +3,17 @@ const express = require("express");
 const history = require("connect-history-api-fallback");
 const bodyParser = require("body-parser");
 const logger = require("morgan");
-const compression = require('compression')
+const compression = require("compression");
 
-const app = express()
-const DIST_DIR  = path.join(__dirname, "build")
-const HTML_FILE = path.join(DIST_DIR, "index.html")
-const APP_PORT  = process.env.PORT || 7700
+const app = express();
+const DIST_DIR = path.join(__dirname, "build");
+const HTML_FILE = path.join(DIST_DIR, "index.html");
+const APP_PORT = process.env.PORT || 7700;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-app.use(compression())
+app.use(compression());
 
 app.use(logger("dev"));
 

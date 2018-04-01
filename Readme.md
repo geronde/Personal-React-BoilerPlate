@@ -36,12 +36,17 @@ For Development, it uses devServer, and to run it simply execute:
    npm run dev
 
 ```
+
+And run the application at http://localhost:9000
+
    For Production, it uses Express as a server, if needed, and to run it simply execute:
 
 ```
    npm run build
 
 ```
+
+And run the production build at http://localhost:7700
 
 You can always execute the production on client side using `npm run prod:client` or simply run the server side using `npm run prod:server`.
 
